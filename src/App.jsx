@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 function App() {
   return (
     <div className='bg-zinc-300'>
+      <h1>Handling Conceptual Logic Only</h1>
        <Nav/>
        <Routes>
           <Route path="/" element={<Home/>}/>
